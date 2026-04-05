@@ -1,15 +1,21 @@
 # nanoGPT Shakespeare Experiments
 
-<p align="center">
-  <img src="assets/hero.png" alt="Project hero" width="100%" />
-</p>
+> A compact research-style repository for text generation reproduction, block size ablation, and normalization comparison on Shakespeare character-level modeling.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python">
-  <img src="https://img.shields.io/badge/pytorch-2.x-red" alt="PyTorch">
-  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
-  <img src="https://img.shields.io/badge/status-course%20project-orange" alt="Status">
-</p>
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![PyTorch](https://img.shields.io/badge/pytorch-2.x-red)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-course%20project-orange)
+
+## Overview
+This repository reproduces a lightweight nanoGPT training pipeline on the Tiny Shakespeare dataset and extends it with two controlled studies:
+1. block size ablation (`32 / 64 / 128`)
+2. Pre-LN vs Post-LN comparison
+
+## Key Results
+- Best final validation loss: `1.8357` at `block_size=128`
+- Pre-LN final validation loss: `1.8857`
+- Post-LN final validation loss: `1.9157`
 
 A compact **research-style adaptation of nanoGPT** for character-level Shakespeare text generation, extended with two focused experiments:
 
