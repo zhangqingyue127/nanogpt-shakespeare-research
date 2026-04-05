@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: nanoGPT Shakespeare Experiments
+message: "If you use this repository, please cite it as a course project adaptation of nanoGPT."
+authors:
+  - family-names: Zhang
+    given-names: Qingyue
+repository-code: "https://github.com/<your-username>/<your-repo-name>"
+license: MIT
