@@ -2,6 +2,8 @@
 
 > A compact research-style repository for text generation reproduction, block size ablation, and normalization comparison on Shakespeare character-level modeling.
 
+> Final experiment project for my **Natural Language Processing** course during the **first semester of my junior year**.
+
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![PyTorch](https://img.shields.io/badge/pytorch-2.x-red)
 ![License](https://img.shields.io/badge/license-MIT-green)
